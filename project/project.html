@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>PREMIER LEAGUE</title>
+    <link rel="stylesheet" href="project.css" />
+    <script src="d3.min.js" charset="utf-8"></script>
+    <script src="d3-simple-slider.min.js" charset="utf-8"></script>
+    <script src="project.js"></script>
+    <link rel="shortcut icon" href="/images/favicon32x32.png" />
+  </head>
+
+  <body style="background-color: #38003c">
+    <div
+      class="premierLeagueLogoBar">
+      <img src="/images/PremierLeagueLogoNoBackground.png" id="premierLeagueImg">
+      <div id="SeasonText">2010-2011</div>
+      <div
+        id="buttonBar">
+        <div id="slider"></div>
+        <span class="btnPressed" id="TeamOddSuccessRateBtn">Team Odd Success Rate</span>
+        <span class="btn" id="AvgOddHomeBtn">Avg Home Odd</span>
+        <span class="btn" id="AvgOddAwayBtn">Avg Away Odd</span>
+        <img src="" id="teamLogo">
+      </div>      
+    </div>
+    <div
+      class="idiomLine1">
+      <div
+        class="idiom"
+        id="seasons_chart"
+        style="max-width: 600px; float: left"
+      ></div>
+      <div
+        class="idiom"
+        id="lollipop_chart"
+        style="max-width: 1200px; float: left"
+      ></div>
+    </div>
+    <div
+      class="idiomLine2">
+      <div
+        class="idiom"
+        id="finalStandings"
+        style="max-width: 600px; float: left"
+      ></div>
+      <div
+        class="idiom"
+        id="diverging_bar_chart"
+        style="max-width: 600px; float: left"
+      ></div>
+      <div
+        class="idiom"
+        id="circular_packing"
+        style="max-width:600px; float: left"
+      ><span id="ResetCircularBtn">Reset Circular Packing</span>
+      <div>
+        <span><img src="/images/Blues.png" id="BluesImg"/></span>
+        <span class="BluesText" id="BluesText1">1</span>
+        <span class="BluesText" id="BluesText2">Total Amount of Games</span>
+        <span class="BluesText" id="BluesText3">38</span>
+      </div>
+      </div>
+    
+    </div>
+  </body>
+</html>

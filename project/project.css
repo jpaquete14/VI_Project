@@ -1,0 +1,222 @@
+.premierLeagueLogoBar{
+  position: relative;
+  height: 94px;
+}
+
+#premierLeagueImg{
+  position: absolute;
+  left: 64px;
+  top: 0px;
+  height: 89px;
+}
+
+#SeasonText {
+  font-size: 34pt;
+  font-family: Radikal;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  left: 336px;
+  top: 21px;
+  width: 200;
+}
+
+/* BUTTONS & BAR */
+
+#buttonBar {
+  position: relative;
+  left: 605px;
+  top: 0px;
+  height: 89px;
+  width: 1200px;
+  background-color: #46004b;
+  border-radius: 25px;
+}
+
+#slider {
+  position: absolute;
+  width: 700px;
+  max-height: 45px;
+  left: 200px;
+}
+
+.btn {
+  width: 200px;
+  font-family: arial, calibri, sans serif;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.btn:hover{
+  border: solid 1px black;
+}
+
+.btnPressed {
+  width: 200px;
+  font-family: arial, calibri, sans serif;
+  padding: 10px;
+  border: solid 1px yellow;
+  border-radius: 10px;
+  text-align: center;
+  color: yellow;
+}
+
+#TeamOddSuccessRateBtn {
+  position: absolute;
+  left: 210px;
+  top: 45px;
+  background-color: purple;
+}
+
+#AvgOddHomeBtn {
+  position: absolute;
+  left: 437px;
+  top: 45px;
+  background-color: purple;
+}
+
+#AvgOddAwayBtn {
+  position: absolute;
+  left: 664px;
+  top: 45px;
+  background-color: purple;
+}
+
+#teamLogo{
+  position: absolute;
+  left: 1075px;
+  top: 0px;
+}
+
+/* ------------------------------------------------------------ */
+
+/* CHARTS */
+
+.idiomLine1 {
+  position: relative;
+  height: 415px;
+}
+
+#seasons_chart {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#lollipop_chart {
+  position: absolute;
+  left: 605px;
+  top: 0px;
+}
+
+/* ------------------------------------------------------------ */
+
+.idiomLine2 {
+  position: relative;
+  height: 512px;
+}
+
+#finalStandings {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+}
+
+#diverging_bar_chart {
+  position: absolute;
+  left: 605px;
+  top: 0px;
+}
+
+#circular_packing {
+  position: absolute;
+  left: 1207.5px;
+  top: 0px;
+}
+
+#ResetCircularBtn{
+  width: 78px;
+  height: 58px;
+  position: absolute;
+  left: 505px;
+  top: 5px;
+  background-color: purple;
+  font-family: arial, calibri, sans serif;
+  font-weight: normal;
+  padding: 13px 0;
+  border: solid 2px white;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+#BluesImg{
+  position: absolute;
+  top: 460px;
+  left: 39px;
+}
+
+.BluesText{
+  position: absolute;
+  top: 490px;
+  color: white;
+  font-family: arial, calibri, sans serif;
+  font-size: 12pt;
+}
+
+#BluesText1{
+  position: absolute;
+  left: 34px;
+}
+
+#BluesText2{
+  position: absolute;
+  left: 216px;
+}
+
+#BluesText3{
+  position: absolute;
+  left: 552px;
+}
+
+/* ------------------------------------------------------------ */
+
+.idiom {
+  background-color: #46004b;
+  border-radius: 25px;
+}
+
+#yaxis_diverging .tick line{
+  visibility:hidden;
+}
+
+
+.el-label {
+  font-family: arial;
+  font-size: 11pt;
+  fill: white;
+}
+
+.axis {
+  color : white;
+}
+
+.axis text {
+  font-family: arial;
+  font-size: 10pt;
+}
+
+.axis-label {
+  font-family: arial;
+  font-size: 15pt;
+  text-anchor: middle;
+  fill: white;
+}
+
+#yaxis_standings .tick line{
+  visibility:hidden;
+}
